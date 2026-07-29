@@ -1,26 +1,26 @@
 import FadeIn from "@/components/FadeIn";
 import CTASection from "@/components/CTASection";
-import { Target, Shield, TrendingUp, Users } from "lucide-react";
+import { Target, Shield, TrendingUp, Handshake } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Magnolia Advisory Group",
-  description: "A partner-led advisory firm built by operators, focused on structured financial systems and practical growth strategy for small businesses.",
+  title: "About Us",
+  description: "A partner-led advisory firm giving owner-operated service businesses clean books, CFO-level strategy, and M&A readiness.",
 };
 
 export default function AboutPage() {
   return (
     <main className="min-h-screen">
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#FDFCF8] to-white">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-surface to-white">
         <div className="max-w-5xl mx-auto text-center">
           <FadeIn>
-            <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 text-[#1B3022]">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-navy">
               About Magnolia Advisory Group
             </h1>
           </FadeIn>
           <FadeIn delay={0.1}>
-            <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               A partner-led advisory firm built by operators.
             </p>
           </FadeIn>
@@ -30,97 +30,83 @@ export default function AboutPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <div className="prose prose-lg max-w-none">
+            <div className="max-w-none">
               <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                Magnolia Advisory Group was founded on a simple belief:
-              </p>
-              <p className="text-2xl font-semibold text-[#1B3022] mb-8">
-                Small businesses deserve structured financial systems and practical growth strategy — without inflated fees or unnecessary complexity.
+                Small businesses deserve real financial clarity — without the inflated fees or unnecessary complexity of a big firm.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                We are a partner-led advisory firm built by operators.
+                Our backgrounds are in audit, corporate finance, and operations. Across both structured corporate environments and hands-on business roles, we&apos;ve seen the same pattern:
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Our backgrounds are in audit, corporate finance, operations, and sales leadership. Through our experience in both structured corporate environments and hands-on business roles, we've seen the same pattern repeatedly:
-              </p>
-              <p className="text-xl font-semibold text-[#1B3022] italic mb-8">
-                Businesses don't fail because of lack of effort. They struggle because of lack of structure.
-              </p>
-              <ul className="space-y-2 text-gray-700 mb-8 text-lg">
-                <li>Messy books.</li>
-                <li>Unclear margins.</li>
-                <li>Inconsistent revenue.</li>
-                <li>Decisions made without data.</li>
-              </ul>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Magnolia was created to fix that.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                We focus on two core areas:
+              <p className="text-xl font-semibold text-navy mb-8">
+                Businesses don&apos;t struggle from lack of effort — they struggle from lack of structure.
               </p>
               <ul className="space-y-2 text-gray-700 mb-8 text-lg list-disc pl-6">
-                <li>Clean, reliable financial systems</li>
-                <li>Practical revenue and growth infrastructure</li>
+                <li>Messy, months-behind books</li>
+                <li>No clear picture of cash flow or margins</li>
+                <li>Decisions made on gut feel instead of data</li>
+                <li>No plan for financing, growth, or an eventual exit</li>
               </ul>
-              <p className="text-xl font-semibold text-[#1B3022] mb-8">
-                We align the numbers with the strategy — so business owners can make confident decisions, not reactive ones.
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Magnolia was built to fix that — with three focused services:
+              </p>
+              <ul className="space-y-2 text-gray-700 mb-8 text-lg list-disc pl-6">
+                <li><strong>Bookkeeping</strong> — accurate, current books every month</li>
+                <li><strong>Fractional CFO</strong> — strategy and forecasting to guide decisions</li>
+                <li><strong>M&amp;A Advisory</strong> — support when you&apos;re ready to buy, sell, or exit</li>
+              </ul>
+              <p className="text-xl font-semibold text-navy">
+                We align the numbers with the strategy — so owners make confident decisions, not reactive ones.
               </p>
             </div>
           </FadeIn>
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#FDFCF8]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-surface">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
-            <h2 className="text-4xl font-serif font-bold text-center mb-12 text-[#1B3022]">
+            <h2 className="text-4xl font-bold text-center mb-12 text-navy">
               Our Approach
             </h2>
           </FadeIn>
 
           <FadeIn delay={0.1}>
-            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-10 mb-12">
+            <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-10 mb-12">
               <p className="text-xl text-gray-700 leading-relaxed mb-6">
                 We operate differently than large firms and differently than freelancers.
               </p>
               <ul className="space-y-4 text-lg text-gray-700">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#1B3022] font-bold mt-1">•</span>
+                  <span className="text-primary font-bold mt-1">•</span>
                   <span>Every client engagement is partner-led</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#1B3022] font-bold mt-1">•</span>
-                  <span>We use clear, tiered pricing</span>
+                  <span className="text-primary font-bold mt-1">•</span>
+                  <span>Clear, published pricing — no hourly guesswork</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#1B3022] font-bold mt-1">•</span>
-                  <span>We work month-to-month</span>
+                  <span className="text-primary font-bold mt-1">•</span>
+                  <span>Month-to-month, with 30-day notice</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#1B3022] font-bold mt-1">•</span>
-                  <span>We prioritize responsiveness and clarity</span>
+                  <span className="text-primary font-bold mt-1">•</span>
+                  <span>Responsive, direct communication</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#1B3022] font-bold mt-1">•</span>
-                  <span>We focus on systems, not surface-level fixes</span>
+                  <span className="text-primary font-bold mt-1">•</span>
+                  <span>Focused on systems, not one-off fixes</span>
                 </li>
               </ul>
-              <p className="text-lg text-gray-700 leading-relaxed mt-8">
-                We are early in our careers, but we are disciplined in our approach. Our foundation comes from audit standards, financial analysis, operations management, and real-world sales leadership — not theory.
-              </p>
-              <p className="text-lg font-semibold text-[#1B3022] mt-6">
-                That discipline shows up in how we serve our clients.
-              </p>
             </div>
           </FadeIn>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <FadeIn delay={0.2}>
-              <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 text-center">
+              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 text-center">
                 <div className="mb-4 flex justify-center">
-                  <Shield className="text-[#1B3022]" size={48} />
+                  <Shield className="text-primary" size={40} />
                 </div>
-                <h3 className="text-lg font-semibold mb-2">Partner-Led</h3>
+                <h3 className="text-lg font-semibold mb-2 text-navy">Partner-Led</h3>
                 <p className="text-gray-600 text-sm">
                   Direct access to partners, not junior staff
                 </p>
@@ -128,11 +114,11 @@ export default function AboutPage() {
             </FadeIn>
 
             <FadeIn delay={0.3}>
-              <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 text-center">
+              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 text-center">
                 <div className="mb-4 flex justify-center">
-                  <Target className="text-[#1B3022]" size={48} />
+                  <Target className="text-primary" size={40} />
                 </div>
-                <h3 className="text-lg font-semibold mb-2">Audit Discipline</h3>
+                <h3 className="text-lg font-semibold mb-2 text-navy">Audit Discipline</h3>
                 <p className="text-gray-600 text-sm">
                   Precision and compliance standards
                 </p>
@@ -140,25 +126,25 @@ export default function AboutPage() {
             </FadeIn>
 
             <FadeIn delay={0.4}>
-              <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 text-center">
+              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 text-center">
                 <div className="mb-4 flex justify-center">
-                  <TrendingUp className="text-[#1B3022]" size={48} />
+                  <TrendingUp className="text-primary" size={40} />
                 </div>
-                <h3 className="text-lg font-semibold mb-2">Operations Focus</h3>
+                <h3 className="text-lg font-semibold mb-2 text-navy">Strategic Finance</h3>
                 <p className="text-gray-600 text-sm">
-                  Practical systems that actually work
+                  CFO-level guidance for growth decisions
                 </p>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.5}>
-              <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 text-center">
+              <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 text-center">
                 <div className="mb-4 flex justify-center">
-                  <Users className="text-[#1B3022]" size={48} />
+                  <Handshake className="text-primary" size={40} />
                 </div>
-                <h3 className="text-lg font-semibold mb-2">Sales Leadership</h3>
+                <h3 className="text-lg font-semibold mb-2 text-navy">Transaction Ready</h3>
                 <p className="text-gray-600 text-sm">
-                  Real-world revenue experience
+                  Prepared for financing, growth, or exit
                 </p>
               </div>
             </FadeIn>
@@ -169,67 +155,58 @@ export default function AboutPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <h2 className="text-4xl font-serif font-bold text-center mb-12 text-[#1B3022]">
+            <h2 className="text-4xl font-bold text-center mb-12 text-navy">
               Who We Work With
             </h2>
           </FadeIn>
 
           <FadeIn delay={0.1}>
-            <div className="bg-[#FDFCF8] rounded-2xl border border-gray-100 p-10">
+            <div className="bg-surface rounded-2xl border border-gray-100 p-10">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                We serve:
+                We serve owner-operated service businesses with 1–5 employees who want:
               </p>
               <ul className="space-y-3 text-lg text-gray-700 mb-8 list-disc pl-6">
-                <li>Service-based businesses</li>
-                <li>Founder-led companies</li>
-                <li>Small businesses</li>
-                <li>Business owners who want clarity and structure</li>
+                <li>Clean, accurate books they can trust</li>
+                <li>Financial strategy without a full-time CFO</li>
+                <li>A clear-eyed partner when buying, selling, or exiting</li>
               </ul>
-              <p className="text-xl font-semibold text-[#1B3022] mb-4">
-                We do not aim to be the biggest firm.
+              <p className="text-xl font-semibold text-navy mb-4">
+                We don&apos;t aim to be the biggest firm.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                We aim to be the most structured and reliable partner for growing businesses in our stage of development.
+                We aim to be the most structured and reliable partner for growing businesses at our stage of development.
               </p>
             </div>
           </FadeIn>
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#FDFCF8]">
-        <div className="max-w-4xl mx-auto">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-surface">
+        <div className="max-w-4xl mx-auto text-center">
           <FadeIn>
-            <h2 className="text-4xl font-serif font-bold text-center mb-12 text-[#1B3022]">
+            <h2 className="text-4xl font-bold mb-8 text-navy">
               Long-Term Vision
             </h2>
           </FadeIn>
 
           <FadeIn delay={0.1}>
-            <div className="prose prose-lg max-w-none text-center">
+            <div className="max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Magnolia Advisory Group is being built intentionally.
+                Magnolia is being built intentionally — systems and client relationships designed to grow with our expertise over time.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                We are developing systems, processes, and long-term client relationships that will grow with our experience and expertise over time.
-              </p>
-              <p className="text-xl font-semibold text-[#1B3022] mb-8">
-                Our goal is simple:
-              </p>
-              <p className="text-2xl font-serif font-bold text-[#1B3022] mb-12">
-                To build a disciplined advisory firm that helps businesses move from financial uncertainty to operational confidence.
+              <p className="text-2xl font-bold text-navy mb-12">
+                Our goal: help businesses move from financial uncertainty to operational confidence.
               </p>
             </div>
           </FadeIn>
 
           <FadeIn delay={0.2}>
-            <div className="text-center">
-              <Link
-                href="/founders"
-                className="inline-block bg-[#1B3022] text-[#FDFCF8] px-8 py-4 rounded-lg font-semibold text-lg transition-all hover:opacity-90"
-              >
-                Meet the Founders
-              </Link>
-            </div>
+            <Link
+              href="/founders"
+              className="inline-block bg-navy text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all hover:bg-navy-light"
+            >
+              Meet the Founders
+            </Link>
           </FadeIn>
         </div>
       </section>

@@ -1,26 +1,26 @@
 import FadeIn from "@/components/FadeIn";
 import CTASection from "@/components/CTASection";
-import { CheckCircle, FileText, Calendar, TrendingUp, Shield } from "lucide-react";
+import { CheckCircle, Calendar, TrendingUp, Shield } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How It Works | Magnolia Advisory Group",
-  description: "Our structured approach to financial systems and growth strategy for service-based businesses.",
+  title: "How It Works",
+  description: "Our structured process for bookkeeping, fractional CFO, and M&A advisory engagements — from consultation to ongoing service.",
 };
 
 export default function HowItWorksPage() {
   return (
     <main className="min-h-screen">
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#FDFCF8] to-white">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-surface to-white">
         <div className="max-w-5xl mx-auto text-center">
           <FadeIn>
-            <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 text-[#1B3022]">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-navy">
               How It Works
             </h1>
           </FadeIn>
           <FadeIn delay={0.1}>
-            <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-              A structured, disciplined approach to building financial clarity and growth systems.
+            <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              A structured, disciplined process for getting your books clean and your financial strategy on track.
             </p>
           </FadeIn>
         </div>
@@ -29,7 +29,7 @@ export default function HowItWorksPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
-            <h2 className="text-4xl font-serif font-bold text-center mb-16 text-[#1B3022]">
+            <h2 className="text-4xl font-bold text-center mb-16 text-navy">
               The Process
             </h2>
           </FadeIn>
@@ -37,37 +37,37 @@ export default function HowItWorksPage() {
           <div className="space-y-16">
             <FadeIn delay={0.1}>
               <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="bg-[#1B3022] rounded-2xl p-12 text-[#FDFCF8] h-full flex flex-col justify-center">
+                <div className="bg-navy rounded-2xl p-12 text-white h-full flex flex-col justify-center">
                   <div className="text-6xl font-bold mb-4">01</div>
-                  <h3 className="text-3xl font-serif font-bold mb-4 text-[#FDFCF8]">
+                  <h3 className="text-3xl font-bold mb-4 text-white">
                     Initial Consultation
                   </h3>
-                  <p className="text-gray-300 text-lg">
+                  <p className="text-blue-100/80 text-lg">
                     Free 30-minute call to understand your business, challenges, and goals.
                   </p>
                 </div>
                 <div>
-                  <h4 className="text-2xl font-semibold mb-4">What We Cover:</h4>
+                  <h4 className="text-2xl font-semibold mb-4 text-navy">What We Cover:</h4>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
-                      <span>Current state of your financial systems</span>
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
+                      <span>Current state of your books and financial systems</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
-                      <span>Revenue tracking and sales processes</span>
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
+                      <span>Cash flow, margins, and reporting gaps</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Key pain points and priorities</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
-                      <span>Which services would be most valuable</span>
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
+                      <span>Which service fits — bookkeeping, CFO, or M&amp;A</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
-                      <span>Honest assessment of fit</span>
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
+                      <span>An honest assessment of fit</span>
                     </li>
                   </ul>
                 </div>
@@ -77,37 +77,37 @@ export default function HowItWorksPage() {
             <FadeIn delay={0.2}>
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div className="order-2 md:order-1">
-                  <h4 className="text-2xl font-semibold mb-4">What You Receive:</h4>
+                  <h4 className="text-2xl font-semibold mb-4 text-navy">What You Receive:</h4>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Detailed scope of work</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Clear pricing (tier and monthly cost)</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Timeline and deliverables</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Engagement terms</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Next steps if you move forward</span>
                     </li>
                   </ul>
                 </div>
-                <div className="order-1 md:order-2 bg-[#1B3022] rounded-2xl p-12 text-[#FDFCF8] h-full flex flex-col justify-center">
+                <div className="order-1 md:order-2 bg-navy rounded-2xl p-12 text-white h-full flex flex-col justify-center">
                   <div className="text-6xl font-bold mb-4">02</div>
-                  <h3 className="text-3xl font-serif font-bold mb-4 text-[#FDFCF8]">
+                  <h3 className="text-3xl font-bold mb-4 text-white">
                     Custom Proposal
                   </h3>
-                  <p className="text-gray-300 text-lg">
-                    Tailored solution with clear pricing, scope, and timeline.
+                  <p className="text-blue-100/80 text-lg">
+                    A tailored plan with clear pricing, scope, and timeline.
                   </p>
                 </div>
               </div>
@@ -115,37 +115,37 @@ export default function HowItWorksPage() {
 
             <FadeIn delay={0.3}>
               <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="bg-[#1B3022] rounded-2xl p-12 text-[#FDFCF8] h-full flex flex-col justify-center">
+                <div className="bg-navy rounded-2xl p-12 text-white h-full flex flex-col justify-center">
                   <div className="text-6xl font-bold mb-4">03</div>
-                  <h3 className="text-3xl font-serif font-bold mb-4 text-[#FDFCF8]">
-                    Onboarding & Setup
+                  <h3 className="text-3xl font-bold mb-4 text-white">
+                    Onboarding &amp; Setup
                   </h3>
-                  <p className="text-gray-300 text-lg">
-                    We gather access, review records, and set up systems.
+                  <p className="text-blue-100/80 text-lg">
+                    We gather access, review your records, and set up systems.
                   </p>
                 </div>
                 <div>
-                  <h4 className="text-2xl font-semibold mb-4">What Happens:</h4>
+                  <h4 className="text-2xl font-semibold mb-4 text-navy">What Happens:</h4>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Secure access to accounting software and financial data</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Review existing books and identify cleanup needs</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Set up chart of accounts and reporting structure</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
-                      <span>Configure sales tracking (if applicable)</span>
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
+                      <span>Build KPI dashboards (CFO clients)</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
-                      <span>Establish communication rhythm</span>
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
+                      <span>Establish a communication rhythm</span>
                     </li>
                   </ul>
                 </div>
@@ -155,36 +155,36 @@ export default function HowItWorksPage() {
             <FadeIn delay={0.4}>
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div className="order-2 md:order-1">
-                  <h4 className="text-2xl font-semibold mb-4">Monthly Deliverables:</h4>
+                  <h4 className="text-2xl font-semibold mb-4 text-navy">Monthly Deliverables:</h4>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Clean, reconciled books</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
-                      <span>P&L, balance sheet, cash flow summary</span>
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
+                      <span>P&amp;L, balance sheet, cash-flow summary</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>KPI tracking and performance updates</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Advisory calls (tier dependent)</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <CheckCircle className="text-[#1B3022] flex-shrink-0 mt-1" size={20} />
+                      <CheckCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                       <span>Responsive support via email</span>
                     </li>
                   </ul>
                 </div>
-                <div className="order-1 md:order-2 bg-[#1B3022] rounded-2xl p-12 text-[#FDFCF8] h-full flex flex-col justify-center">
+                <div className="order-1 md:order-2 bg-navy rounded-2xl p-12 text-white h-full flex flex-col justify-center">
                   <div className="text-6xl font-bold mb-4">04</div>
-                  <h3 className="text-3xl font-serif font-bold mb-4 text-[#FDFCF8]">
+                  <h3 className="text-3xl font-bold mb-4 text-white">
                     Ongoing Management
                   </h3>
-                  <p className="text-gray-300 text-lg">
+                  <p className="text-blue-100/80 text-lg">
                     Consistent, reliable service month after month.
                   </p>
                 </div>
@@ -194,45 +194,45 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#FDFCF8]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-surface">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
-            <h2 className="text-4xl font-serif font-bold text-center mb-12 text-[#1B3022]">
+            <h2 className="text-4xl font-bold text-center mb-12 text-navy">
               Our Commitment to You
             </h2>
           </FadeIn>
 
           <div className="grid md:grid-cols-3 gap-8">
             <FadeIn delay={0.1}>
-              <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 text-center">
+              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8 text-center">
                 <div className="mb-6 flex justify-center">
-                  <Shield className="text-[#1B3022]" size={48} />
+                  <Shield className="text-primary" size={44} />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Partner-Led Service</h3>
+                <h3 className="text-xl font-semibold mb-4 text-navy">Partner-Led Service</h3>
                 <p className="text-gray-700">
-                  Every engagement is managed by a partner. You're not handed off to junior staff.
+                  Every engagement is managed by a partner. You&apos;re never handed off to junior staff.
                 </p>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.2}>
-              <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 text-center">
+              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8 text-center">
                 <div className="mb-6 flex justify-center">
-                  <Calendar className="text-[#1B3022]" size={48} />
+                  <Calendar className="text-primary" size={44} />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Flexible Terms</h3>
+                <h3 className="text-xl font-semibold mb-4 text-navy">Flexible Terms</h3>
                 <p className="text-gray-700">
-                  Month-to-month agreements. No long-term contracts. 30-day notice to cancel.
+                  Month-to-month agreements on bookkeeping and CFO services. 30-day notice to cancel.
                 </p>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.3}>
-              <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 text-center">
+              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8 text-center">
                 <div className="mb-6 flex justify-center">
-                  <TrendingUp className="text-[#1B3022]" size={48} />
+                  <TrendingUp className="text-primary" size={44} />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Results-Focused</h3>
+                <h3 className="text-xl font-semibold mb-4 text-navy">Results-Focused</h3>
                 <p className="text-gray-700">
                   We measure success by the clarity and confidence you gain, not hours billed.
                 </p>
@@ -245,44 +245,44 @@ export default function HowItWorksPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <h2 className="text-3xl font-serif font-bold text-center mb-12 text-[#1B3022]">
+            <h2 className="text-3xl font-bold text-center mb-12 text-navy">
               Common Questions About Working Together
             </h2>
           </FadeIn>
 
           <div className="space-y-6">
             <FadeIn delay={0.1}>
-              <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8">
+              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
                 <h3 className="text-xl font-semibold mb-3">How long does onboarding take?</h3>
                 <p className="text-gray-700">
-                  Typically 1-2 weeks depending on the state of your records. If cleanup is needed, we'll provide a separate timeline for that work.
+                  Typically 1-2 weeks depending on the state of your records. If cleanup is needed, we&apos;ll provide a separate timeline.
                 </p>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.2}>
-              <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8">
+              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
                 <h3 className="text-xl font-semibold mb-3">What software do I need?</h3>
                 <p className="text-gray-700">
-                  We work primarily with QuickBooks Online and Xero. If you don't have accounting software yet, we'll help you choose and set it up.
+                  We work primarily with QuickBooks Online and Xero. If you don&apos;t have accounting software yet, we&apos;ll help you choose and set it up.
                 </p>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.3}>
-              <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8">
+              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
                 <h3 className="text-xl font-semibold mb-3">Do you meet in person?</h3>
                 <p className="text-gray-700">
-                  We operate fully remote. All meetings happen via video call, which allows us to serve clients nationwide efficiently.
+                  We operate fully remote. All meetings happen via video call, which lets us serve clients nationwide efficiently.
                 </p>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.4}>
-              <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8">
+              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
                 <h3 className="text-xl font-semibold mb-3">What if I need to cancel?</h3>
                 <p className="text-gray-700">
-                  30-day notice is all we require. No penalties, no complicated contracts. We want clients who value the service, not clients locked into agreements.
+                  30-day notice is all we require on bookkeeping and CFO services. No penalties, no complicated contracts.
                 </p>
               </div>
             </FadeIn>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -10,16 +10,61 @@ const inter = Inter({
   display: "swap",
 });
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
   display: "swap",
 });
 
+const siteUrl = "https://magnoliaadvisory.com";
+
 export const metadata: Metadata = {
-  title: "Magnolia Advisory Group | Financial Clarity. Structured Growth.",
-  description: "Magnolia Advisory Group helps growing service businesses build clean books and practical revenue systems — without the complexity or inflated fees of large firms.",
-  keywords: ["bookkeeping services", "small business bookkeeping", "financial advisory", "growth strategy", "sales systems"],
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Magnolia Advisory Group | Bookkeeping, Fractional CFO & M&A Advisory",
+    template: "%s | Magnolia Advisory Group",
+  },
+  description:
+    "Magnolia Advisory Group gives owner-operated service businesses clean books, fractional CFO guidance, and M&A transaction advisory — without big-firm complexity or fees.",
+  keywords: [
+    "bookkeeping services",
+    "small business bookkeeping",
+    "fractional CFO",
+    "outsourced CFO",
+    "M&A advisory",
+    "M&A transaction advisory",
+    "financial advisory for small business",
+  ],
+  openGraph: {
+    type: "website",
+    url: siteUrl,
+    siteName: "Magnolia Advisory Group",
+    title: "Magnolia Advisory Group | Bookkeeping, Fractional CFO & M&A Advisory",
+    description:
+      "Clean books, fractional CFO guidance, and M&A transaction advisory for owner-operated service businesses.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "Magnolia Advisory Group",
+  description:
+    "Bookkeeping, fractional CFO, and M&A transaction advisory services for owner-operated service businesses.",
+  url: siteUrl,
+  areaServed: "US",
+  priceRange: "$$",
+  email: "contact@magnoliaadvisory.com",
+  makesOffer: [
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Bookkeeping Services" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Fractional CFO Services" } },
+    { "@type": "Offer", itemOffered: { "@type": "Service", name: "M&A Transaction Advisory" } },
+  ],
 };
 
 export default function RootLayout({
@@ -29,8 +74,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
-        className={`${inter.variable} ${playfair.variable} antialiased`}
+        className={`${inter.variable} ${poppins.variable} antialiased`}
       >
         <Header />
         {children}

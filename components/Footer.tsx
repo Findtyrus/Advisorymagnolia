@@ -1,57 +1,64 @@
 import Link from "next/link";
 import { Mail, Phone } from "lucide-react";
+import Logo from "@/components/Logo";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1B3022] text-[#FDFCF8]">
+    <footer className="bg-navy text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-serif font-bold text-[#FDFCF8]">
-              Magnolia Advisory Group
-            </h3>
-            <p className="text-gray-300 text-sm">
-              Financial clarity. Structured growth.
+            <Logo theme="dark" />
+            <p className="text-blue-100/70 text-sm">
+              Bookkeeping. Fractional CFO. M&amp;A Advisory.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4 text-[#FDFCF8]">Services</h4>
+            <h4 className="font-semibold mb-4 text-white">Services</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  href="/services/accounting"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  href="/services/bookkeeping"
+                  className="text-blue-100/70 hover:text-white transition-colors"
                 >
-                  Accounting & Finance
+                  Bookkeeping
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/services/growth"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  href="/services/cfo"
+                  className="text-blue-100/70 hover:text-white transition-colors"
                 >
-                  Business Development
+                  Fractional CFO
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/ma-advisory"
+                  className="text-blue-100/70 hover:text-white transition-colors"
+                >
+                  M&amp;A Advisory
                 </Link>
               </li>
               <li>
                 <Link
                   href="/bundle"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-blue-100/70 hover:text-white transition-colors"
                 >
-                  Flagship Bundle
+                  Bookkeeping + CFO Bundle
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4 text-[#FDFCF8]">Company</h4>
+            <h4 className="font-semibold mb-4 text-white">Company</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-blue-100/70 hover:text-white transition-colors"
                 >
                   About Us
                 </Link>
@@ -59,7 +66,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/founders"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-blue-100/70 hover:text-white transition-colors"
                 >
                   Meet the Founders
                 </Link>
@@ -67,26 +74,26 @@ const Footer = () => {
               <li>
                 <Link
                   href="/how-it-works"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-blue-100/70 hover:text-white transition-colors"
                 >
                   How It Works
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/investment"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  href="/pricing"
+                  className="text-blue-100/70 hover:text-white transition-colors"
                 >
-                  Investment & FAQ
+                  Pricing
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4 text-[#FDFCF8]">Contact</h4>
+            <h4 className="font-semibold mb-4 text-white">Contact</h4>
             <ul className="space-y-3 text-sm">
-              <li className="flex items-center gap-2 text-gray-300">
+              <li className="flex items-center gap-2 text-blue-100/70">
                 <Mail size={16} />
                 <a
                   href="mailto:contact@magnoliaadvisory.com"
@@ -95,7 +102,7 @@ const Footer = () => {
                   contact@magnoliaadvisory.com
                 </a>
               </li>
-              <li className="flex items-center gap-2 text-gray-300">
+              <li className="flex items-center gap-2 text-blue-100/70">
                 <Phone size={16} />
                 <span>(555) 123-4567</span>
               </li>
@@ -103,7 +110,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+        <div className="border-t border-white/10 mt-8 pt-8 text-center text-sm text-blue-100/50">
           <p>
             &copy; {new Date().getFullYear()} Magnolia Advisory Group. All
             rights reserved.
