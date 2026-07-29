@@ -65,10 +65,10 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/founders"
+                  href="/team"
                   className="text-blue-100/70 hover:text-white transition-colors"
                 >
-                  Meet the Founders
+                  Our Team
                 </Link>
               </li>
               <li>

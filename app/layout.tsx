@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | Magnolia Advisory Group",
   },
   description:
-    "Magnolia Advisory Group gives owner-operated service businesses clean books, fractional CFO guidance, and M&A transaction advisory — without big-firm complexity or fees.",
+    "Magnolia Advisory Group gives owner-operated service businesses clean books, fractional CFO guidance, and M&A transaction advisory, without big-firm complexity or fees.",
   keywords: [
     "bookkeeping services",
     "small business bookkeeping",

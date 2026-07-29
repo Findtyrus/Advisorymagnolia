@@ -13,7 +13,7 @@ export default function Home() {
           <div className="text-center space-y-8">
             <FadeIn>
               <span className="inline-block bg-surface text-primary-dark px-4 py-1.5 rounded-full text-sm font-semibold tracking-wide">
-                For owner-operated service businesses (1–5 employees)
+                For owner-operated service businesses (1-5 employees)
               </span>
             </FadeIn>
             <FadeIn delay={0.1}>
@@ -23,8 +23,8 @@ export default function Home() {
               </h1>
             </FadeIn>
             <FadeIn delay={0.2}>
-              <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Bookkeeping, fractional CFO guidance, and M&amp;A advisory for small businesses — without the complexity or price tag of a big firm.
+              <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                Bookkeeping, fractional CFO, and M&amp;A advisory for small businesses. No big-firm complexity or price tag.
               </p>
             </FadeIn>
             <FadeIn delay={0.3}>
@@ -53,11 +53,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <FadeIn>
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-navy mb-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-navy mb-4">
                 What We Offer
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Three services. One goal: give you the financial clarity to run and grow your business with confidence.
+                Three services, one goal: financial clarity you can act on.
               </p>
             </div>
           </FadeIn>
@@ -69,7 +69,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-3 text-navy">Bookkeeping</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Transaction categorization, account reconciliations, and monthly P&amp;L, balance sheet, and cash-flow summaries — so your numbers are always current and accurate.
+                  Transaction categorization, reconciliations, and monthly P&amp;L, balance sheet, and cash-flow summaries.
                 </p>
                 <div className="mt-auto">
                   <p className="text-sm text-gray-500 mb-4">Starting at <span className="font-semibold text-navy">$300/month</span></p>
@@ -94,7 +94,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-3 text-navy">Fractional CFO</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Outsourced CFO guidance — forecasting, budgeting, cash-flow strategy, and KPI reporting — to help you make confident decisions without a full-time hire.
+                  Forecasting, budgeting, and KPI reporting. CFO-level guidance without a full-time hire.
                 </p>
                 <div className="mt-auto">
                   <p className="text-sm text-gray-500 mb-4">Starting at <span className="font-semibold text-navy">$1,500/month</span></p>
@@ -114,7 +114,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-3 text-navy">M&amp;A Advisory</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Transaction advisory for owners buying, selling, or preparing for an exit — financial due diligence, valuation positioning, and deal support from start to close.
+                  Support for buying, selling, or preparing for an exit, from valuation through close.
                 </p>
                 <div className="mt-auto">
                   <p className="text-sm text-gray-500 mb-4">Custom scope, <span className="font-semibold text-navy">free initial review</span></p>
@@ -135,13 +135,10 @@ export default function Home() {
       <section className="py-24 px-6 bg-surface">
         <div className="max-w-7xl mx-auto">
           <FadeIn>
-            <div className="text-center mb-20">
-              <h2 className="text-4xl md:text-5xl font-bold text-navy mb-6">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-navy mb-4">
                 Why Owners Choose Magnolia
               </h2>
-              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Straightforward service built for growing businesses — not big-firm overhead.
-              </p>
             </div>
           </FadeIn>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -150,9 +147,9 @@ export default function Home() {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-2xl mb-6">
                   <Shield className="text-primary" size={30} />
                 </div>
-                <h3 className="text-lg font-bold mb-3 text-navy">Partner-Led</h3>
+                <h3 className="text-lg font-bold mb-2 text-navy">Direct Access</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Every engagement is led by a partner, not handed off to junior staff.
+                  You work with the managing director, not junior staff.
                 </p>
               </div>
             </FadeIn>
@@ -161,9 +158,9 @@ export default function Home() {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-2xl mb-6">
                   <CheckCircle className="text-primary" size={30} />
                 </div>
-                <h3 className="text-lg font-bold mb-3 text-navy">Transparent Pricing</h3>
+                <h3 className="text-lg font-bold mb-2 text-navy">Transparent Pricing</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Clear, published pricing — no hourly guesswork or surprise invoices.
+                  Published pricing. No surprise invoices.
                 </p>
               </div>
             </FadeIn>
@@ -172,9 +169,9 @@ export default function Home() {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-2xl mb-6">
                   <Calendar className="text-primary" size={30} />
                 </div>
-                <h3 className="text-lg font-bold mb-3 text-navy">Month-to-Month</h3>
+                <h3 className="text-lg font-bold mb-2 text-navy">Month-to-Month</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  No long-term contracts on bookkeeping or CFO services. 30-day notice, ever.
+                  No long-term contracts. 30-day notice.
                 </p>
               </div>
             </FadeIn>
@@ -183,9 +180,9 @@ export default function Home() {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-2xl mb-6">
                   <Shield className="text-primary" size={30} />
                 </div>
-                <h3 className="text-lg font-bold mb-3 text-navy">Risk-Free First Month</h3>
+                <h3 className="text-lg font-bold mb-2 text-navy">Risk-Free First Month</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  100% satisfaction guarantee on your first month of bookkeeping.
+                  100% satisfaction guarantee on bookkeeping.
                 </p>
               </div>
             </FadeIn>
@@ -197,12 +194,9 @@ export default function Home() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto text-center">
           <FadeIn>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-navy">
+            <h2 className="text-4xl md:text-5xl font-bold mb-12 text-navy">
               Pricing Snapshot
             </h2>
-            <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-              Transparent pricing across all three services.
-            </p>
           </FadeIn>
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <FadeIn delay={0.1}>
@@ -212,7 +206,7 @@ export default function Home() {
                   $300<span className="text-lg text-gray-500">+/month</span>
                 </div>
                 <p className="text-gray-600 text-sm">
-                  Categorization, reconciliations, and monthly financial statements.
+                  Categorization, reconciliations, and monthly statements.
                 </p>
               </div>
             </FadeIn>
@@ -228,7 +222,7 @@ export default function Home() {
                   $1,500<span className="text-lg text-blue-100/70">+/month</span>
                 </div>
                 <p className="text-blue-100/80 text-sm">
-                  Forecasting, budgeting, cash-flow strategy, and KPI reporting.
+                  Forecasting, budgeting, and KPI reporting.
                 </p>
               </div>
             </FadeIn>
@@ -239,7 +233,7 @@ export default function Home() {
                   Custom
                 </div>
                 <p className="text-gray-600 text-sm">
-                  Project fee or retainer + success fee, scoped to your transaction.
+                  Scoped to your transaction.
                 </p>
               </div>
             </FadeIn>
