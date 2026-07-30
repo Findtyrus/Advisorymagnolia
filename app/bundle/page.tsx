@@ -72,7 +72,7 @@ export default function BundlePage() {
               <div>
                 <h2 className="text-2xl font-bold mb-6 text-navy">Who This Is For</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Owner-operated businesses with 1 to 5 employees who need accurate books and financial strategy, and want one advisory partner instead of juggling vendors.
+                  Service businesses up to $1M in revenue who need accurate books and financial strategy, and want one advisory partner instead of juggling vendors.
                 </p>
               </div>
             </FadeIn>

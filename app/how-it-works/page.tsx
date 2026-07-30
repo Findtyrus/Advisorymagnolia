@@ -96,7 +96,7 @@ export default function HowItWorksPage() {
                 </div>
                 <h3 className="text-lg font-semibold mb-2 text-navy">Direct Access</h3>
                 <p className="text-gray-700 text-sm">
-                  You work with the managing director, not junior staff.
+                  Every engagement is personally overseen by our managing director.
                 </p>
               </div>
             </FadeIn>

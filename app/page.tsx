@@ -13,7 +13,7 @@ export default function Home() {
           <div className="text-center space-y-8">
             <FadeIn>
               <span className="inline-block bg-surface text-primary-dark px-4 py-1.5 rounded-full text-sm font-semibold tracking-wide">
-                For owner-operated service businesses (1-5 employees)
+                For service businesses up to $1M in revenue
               </span>
             </FadeIn>
             <FadeIn delay={0.1}>
@@ -149,7 +149,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg font-bold mb-2 text-navy">Direct Access</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  You work with the managing director, not junior staff.
+                  Every engagement is personally overseen by our managing director.
                 </p>
               </div>
             </FadeIn>

@@ -283,7 +283,7 @@ export default function PricingPage() {
               <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6">
                 <h3 className="text-lg font-semibold mb-2">Who do you work with?</h3>
                 <p className="text-gray-700">
-                  Owner-operated service businesses with 1 to 5 employees.
+                  Service businesses up to $1M in revenue.
                 </p>
               </div>
             </FadeIn>

@@ -33,8 +33,11 @@ export default function AboutPage() {
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Most small businesses don&apos;t struggle from lack of effort. They struggle from lack of structure: messy books, unclear cash flow, and decisions made on gut feel.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
               Magnolia was built to fix that with three services: bookkeeping, fractional CFO support, and M&amp;A advisory.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              We&apos;re a growing firm. As our client base expands, so does our team, but every engagement is still personally overseen by our managing director.
             </p>
           </FadeIn>
         </div>
@@ -56,7 +59,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-base font-semibold mb-1 text-navy">Direct Access</h3>
                 <p className="text-gray-600 text-sm">
-                  You work with the managing director, not junior staff.
+                  Every engagement is personally overseen by our managing director.
                 </p>
               </div>
             </FadeIn>
@@ -107,7 +110,7 @@ export default function AboutPage() {
               Who We Work With
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Owner-operated service businesses with 1 to 5 employees who want clean books, real financial strategy, and a partner who is ready when they buy, sell, or exit.
+              Service businesses up to $1M in revenue who want clean books, real financial strategy, and a partner who is ready when they buy, sell, or exit.
             </p>
             <Link
               href="/team"
