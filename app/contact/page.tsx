@@ -48,7 +48,7 @@ export default function ContactPage() {
                     No pressure, no obligation.
                   </p>
                   <a
-                    href="https://calendly.com/magnoliaadvisory"
+                    href="https://calendly.com/tyrus-burton7/30min"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full bg-primary text-white py-4 rounded-lg font-semibold text-center text-lg transition-all hover:bg-primary-dark"
@@ -85,10 +85,10 @@ export default function ContactPage() {
                     </div>
                     <h3 className="text-lg font-semibold mb-1 text-navy">Phone</h3>
                     <a
-                      href="tel:+15551234567"
+                      href="tel:+17377044959"
                       className="text-primary font-semibold hover:underline"
                     >
-                      (555) 123-4567
+                      (737) 704-4959
                     </a>
                   </div>
                 </div>
