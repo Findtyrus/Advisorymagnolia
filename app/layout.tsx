@@ -17,7 +17,7 @@ const poppins = Poppins({
   display: "swap",
 });
 
-const siteUrl = "https://magnoliaadvisory.com";
+const siteUrl = "https://advisorymagnolia.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -59,7 +59,7 @@ const jsonLd = {
   url: siteUrl,
   areaServed: "US",
   priceRange: "$$",
-  email: "contact@magnoliaadvisory.com",
+  email: "contact@advisorymagnolia.com",
   makesOffer: [
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Bookkeeping Services" } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Fractional CFO Services" } },

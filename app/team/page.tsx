@@ -44,7 +44,7 @@ export default function TeamPage() {
                 </div>
                 <div className="mt-4 flex justify-center">
                   <a
-                    href="mailto:tyrus@magnoliaadvisory.com"
+                    href="mailto:tyrus@advisorymagnolia.com"
                     className="flex items-center gap-2 text-navy hover:text-primary transition-colors"
                   >
                     <Mail size={18} />
