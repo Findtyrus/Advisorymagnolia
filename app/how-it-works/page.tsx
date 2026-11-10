@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "How It Works",
-  description: "Our process for bookkeeping, fractional CFO, and M&A advisory engagements, from consultation to ongoing service.",
+  description: "Our process for bookkeeping and fractional CFO engagements, from consultation to ongoing service.",
 };
 
 export default function HowItWorksPage() {

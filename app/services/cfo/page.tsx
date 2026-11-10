@@ -27,7 +27,7 @@ export default function CFOPage() {
   const strategicFeatures = [
     "Everything in Growth",
     "Scenario planning",
-    "Exit and M&A readiness",
+    "Long-term financial planning",
     "Weekly availability",
   ];
 

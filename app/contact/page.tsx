@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Us",
-  description: "Schedule a free consultation to discuss bookkeeping, fractional CFO, or M&A advisory for your business.",
+  description: "Schedule a free consultation to discuss bookkeeping or fractional CFO support for your business.",
 };
 
 export default function ContactPage() {
@@ -34,7 +34,7 @@ export default function ContactPage() {
                   Schedule a Consultation
                 </h2>
                 <p className="text-gray-700 mb-8 leading-relaxed">
-                  A free 30-minute call to discuss your business and find the right fit: bookkeeping, fractional CFO, or M&amp;A advisory.
+                  A free 30-minute call to discuss your business and find the right fit: bookkeeping, fractional CFO, or both.
                 </p>
 
                 <div className="bg-navy rounded-2xl p-8">

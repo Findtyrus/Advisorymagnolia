@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "Transparent pricing for bookkeeping, fractional CFO, and M&A advisory services. Month-to-month terms, no hidden fees.",
+  description: "Transparent pricing for bookkeeping and fractional CFO services. Month-to-month terms, no hidden fees.",
 };
 
 export default function PricingPage() {
@@ -139,58 +139,6 @@ export default function PricingPage() {
                 className="inline-block text-primary font-semibold hover:underline"
               >
                 View full fractional CFO details →
-              </Link>
-            </div>
-          </FadeIn>
-
-          <FadeIn>
-            <h2 className="text-3xl font-bold text-center mb-8 text-navy">
-              M&amp;A Advisory
-            </h2>
-          </FadeIn>
-
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <FadeIn delay={0.1}>
-              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
-                <h3 className="text-xl font-bold mb-2 text-navy">Sell-Side Readiness</h3>
-                <div className="text-3xl font-bold text-navy mb-1">$5,000+</div>
-                <p className="text-gray-500 mb-4">project</p>
-                <p className="text-gray-700 text-sm">
-                  Valuation positioning, buyer-ready data room.
-                </p>
-              </div>
-            </FadeIn>
-
-            <FadeIn delay={0.2}>
-              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
-                <h3 className="text-xl font-bold mb-2 text-navy">Due Diligence</h3>
-                <div className="text-3xl font-bold text-navy mb-1">$250/hr</div>
-                <p className="text-gray-500 mb-4">or $7,500+ project</p>
-                <p className="text-gray-700 text-sm">
-                  Financial due diligence for either side of a deal.
-                </p>
-              </div>
-            </FadeIn>
-
-            <FadeIn delay={0.3}>
-              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
-                <h3 className="text-xl font-bold mb-2 text-navy">Full Advisory</h3>
-                <div className="text-3xl font-bold text-navy mb-1">1-3%</div>
-                <p className="text-gray-500 mb-4">of deal value + retainer</p>
-                <p className="text-gray-700 text-sm">
-                  Support from valuation through close.
-                </p>
-              </div>
-            </FadeIn>
-          </div>
-
-          <FadeIn delay={0.4}>
-            <div className="text-center mb-16">
-              <Link
-                href="/services/ma-advisory"
-                className="inline-block text-primary font-semibold hover:underline"
-              >
-                View full M&amp;A advisory details →
               </Link>
             </div>
           </FadeIn>

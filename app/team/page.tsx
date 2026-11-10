@@ -61,10 +61,10 @@ export default function TeamPage() {
                 </p>
                 <div className="text-gray-700 space-y-4">
                   <p>
-                    Tyrus founded Magnolia and oversees every engagement, across bookkeeping, fractional CFO, and M&amp;A advisory. His personal focus is fractional CFO and M&amp;A work.
+                    Tyrus founded Magnolia and oversees every engagement, across bookkeeping and fractional CFO. His personal focus is fractional CFO work.
                   </p>
                   <p>
-                    His background is in audit and financial analysis, testing high-risk accounts and supporting regulatory compliance. That discipline shapes how he approaches every client&apos;s books and every deal.
+                    His background is in audit and financial analysis, testing high-risk accounts and supporting regulatory compliance. That discipline shapes how he approaches every client&apos;s books and every forecast.
                   </p>
                   <p>
                     Every client relationship starts with Tyrus, and he stays involved through the life of the engagement.

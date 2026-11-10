@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { BookOpen, LineChart, Handshake, Package } from "lucide-react";
+import { BookOpen, LineChart, Package } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import CTASection from "@/components/CTASection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services | Bookkeeping, Fractional CFO & M&A Advisory",
-  description: "Bookkeeping, fractional CFO, and M&A transaction advisory for owner-operated service businesses. Clear pricing, no long-term contracts.",
+  title: "Services | Bookkeeping & Fractional CFO",
+  description: "Bookkeeping and fractional CFO services for owner-operated service businesses. Clear pricing, no long-term contracts.",
 };
 
 export default function ServicesPage() {
@@ -29,7 +29,7 @@ export default function ServicesPage() {
 
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-2 gap-8 mb-16 max-w-4xl mx-auto">
             <FadeIn delay={0.1}>
               <Link href="/services/bookkeeping" className="block group h-full">
                 <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8 h-full transition-all hover:shadow-lg hover:-translate-y-1">
@@ -80,30 +80,6 @@ export default function ServicesPage() {
               </Link>
             </FadeIn>
 
-            <FadeIn delay={0.3}>
-              <Link href="/services/ma-advisory" className="block group h-full">
-                <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8 h-full transition-all hover:shadow-lg hover:-translate-y-1">
-                  <div className="inline-flex items-center justify-center w-14 h-14 bg-primary rounded-2xl mb-6">
-                    <Handshake className="text-white" size={26} />
-                  </div>
-                  <h2 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors text-navy">
-                    M&amp;A Advisory
-                  </h2>
-                  <p className="text-gray-600 mb-4">
-                    Guidance to buy, sell, or exit.
-                  </p>
-                  <ul className="space-y-2 text-gray-600 mb-6 text-sm">
-                    <li>Sell-side readiness</li>
-                    <li>Financial due diligence</li>
-                    <li>Valuation positioning</li>
-                    <li>Deal structuring</li>
-                  </ul>
-                  <div className="text-primary font-semibold group-hover:underline">
-                    View pricing and details →
-                  </div>
-                </div>
-              </Link>
-            </FadeIn>
           </div>
 
           <FadeIn delay={0.4}>
