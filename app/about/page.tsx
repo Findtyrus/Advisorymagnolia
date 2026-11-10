@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Magnolia Advisory Group gives owner-operated service businesses clean books, CFO-level strategy, and M&A readiness.",
+  description: "Magnolia Advisory Group gives owner-operated service businesses clean books and CFO-level strategy.",
 };
 
 export default function AboutPage() {
@@ -34,7 +34,7 @@ export default function AboutPage() {
               Most small businesses don&apos;t struggle from lack of effort. They struggle from lack of structure: messy books, unclear cash flow, and decisions made on gut feel.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Magnolia was built to fix that with three services: bookkeeping, fractional CFO support, and M&amp;A advisory.
+              Magnolia was built to fix that with two services: bookkeeping and fractional CFO support.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               We&apos;re a growing firm. As our client base expands, so does our team, but every engagement is still personally overseen by our managing director.
@@ -95,7 +95,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-base font-semibold mb-1 text-navy">Built to Grow</h3>
                 <p className="text-gray-600 text-sm">
-                  Ready to support financing, growth, or exit.
+                  Ready to support financing and growth.
                 </p>
               </div>
             </FadeIn>
@@ -110,7 +110,7 @@ export default function AboutPage() {
               Who We Work With
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Service businesses up to $1M in revenue who want clean books, real financial strategy, and a partner who is ready when they buy, sell, or exit.
+              Service businesses up to $1M in revenue who want clean books, real financial strategy, and a partner who helps them grow with confidence.
             </p>
             <Link
               href="/team"

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BookOpen, LineChart, Handshake, Shield, Calendar, CheckCircle, ArrowRight } from "lucide-react";
+import { BookOpen, LineChart, Shield, Calendar, CheckCircle, ArrowRight } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import CTASection from "@/components/CTASection";
 
@@ -24,7 +24,7 @@ export default function Home() {
             </FadeIn>
             <FadeIn delay={0.2}>
               <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-                Bookkeeping, fractional CFO, and M&amp;A advisory for small businesses. No big-firm complexity or price tag.
+                Bookkeeping and fractional CFO services for small businesses. No big-firm complexity or price tag.
               </p>
             </FadeIn>
             <FadeIn delay={0.3}>
@@ -57,11 +57,11 @@ export default function Home() {
                 What We Offer
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Three services, one goal: financial clarity you can act on.
+                Two services, one goal: financial clarity you can act on.
               </p>
             </div>
           </FadeIn>
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <FadeIn delay={0.1}>
               <div className="bg-white rounded-3xl p-10 h-full flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-gray-100 shadow-sm">
                 <div className="inline-flex items-center justify-center w-14 h-14 bg-primary rounded-2xl mb-6">
@@ -103,26 +103,6 @@ export default function Home() {
                     className="inline-flex items-center justify-center w-full bg-primary text-white px-6 py-3.5 rounded-xl font-semibold transition-all hover:bg-primary-dark"
                   >
                     Schedule CFO Consultation
-                  </Link>
-                </div>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.3}>
-              <div className="bg-white rounded-3xl p-10 h-full flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-gray-100 shadow-sm">
-                <div className="inline-flex items-center justify-center w-14 h-14 bg-primary rounded-2xl mb-6">
-                  <Handshake className="text-white" size={26} />
-                </div>
-                <h3 className="text-2xl font-bold mb-3 text-navy">M&amp;A Advisory</h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  Support for buying, selling, or preparing for an exit, from valuation through close.
-                </p>
-                <div className="mt-auto">
-                  <p className="text-sm text-gray-500 mb-4">Custom scope, <span className="font-semibold text-navy">free initial review</span></p>
-                  <Link
-                    href="/contact"
-                    className="inline-flex items-center justify-center w-full bg-navy text-white px-6 py-3.5 rounded-xl font-semibold transition-all hover:bg-navy-light"
-                  >
-                    Discuss Your Transaction
                   </Link>
                 </div>
               </div>
@@ -198,7 +178,7 @@ export default function Home() {
               Pricing Snapshot
             </h2>
           </FadeIn>
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="grid md:grid-cols-2 gap-6 mb-12 max-w-3xl mx-auto">
             <FadeIn delay={0.1}>
               <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8 h-full">
                 <h3 className="text-xl font-bold mb-2 text-navy">Bookkeeping</h3>
@@ -223,17 +203,6 @@ export default function Home() {
                 </div>
                 <p className="text-blue-100/80 text-sm">
                   Forecasting, budgeting, and KPI reporting.
-                </p>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.3}>
-              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8 h-full">
-                <h3 className="text-xl font-bold mb-2 text-navy">M&amp;A Advisory</h3>
-                <div className="text-3xl font-bold text-navy mb-4">
-                  Custom
-                </div>
-                <p className="text-gray-600 text-sm">
-                  Scoped to your transaction.
                 </p>
               </div>
             </FadeIn>

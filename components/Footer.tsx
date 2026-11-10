@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Logo theme="dark" />
             <p className="text-blue-100/70 text-sm">
-              Bookkeeping. Fractional CFO. M&amp;A Advisory.
+              Bookkeeping. Fractional CFO.
             </p>
           </div>
 
@@ -31,14 +31,6 @@ const Footer = () => {
                   className="text-blue-100/70 hover:text-white transition-colors"
                 >
                   Fractional CFO
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/services/ma-advisory"
-                  className="text-blue-100/70 hover:text-white transition-colors"
-                >
-                  M&amp;A Advisory
                 </Link>
               </li>
               <li>

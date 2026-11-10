@@ -10,7 +10,7 @@ interface CTASectionProps {
 
 const CTASection = ({
   title = "Ready for clean books and a clear financial picture?",
-  description = "Schedule a free consultation to find the right fit: bookkeeping, fractional CFO, or M&A advisory.",
+  description = "Schedule a free consultation to find the right fit: bookkeeping, fractional CFO, or both.",
   primaryButtonText = "Schedule a Free Consultation",
   primaryButtonLink = "/contact",
 }: CTASectionProps) => {

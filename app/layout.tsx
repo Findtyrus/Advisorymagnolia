@@ -22,27 +22,25 @@ const siteUrl = "https://advisorymagnolia.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Magnolia Advisory Group | Bookkeeping, Fractional CFO & M&A Advisory",
+    default: "Magnolia Advisory Group | Bookkeeping & Fractional CFO",
     template: "%s | Magnolia Advisory Group",
   },
   description:
-    "Magnolia Advisory Group gives owner-operated service businesses clean books, fractional CFO guidance, and M&A transaction advisory, without big-firm complexity or fees.",
+    "Magnolia Advisory Group gives owner-operated service businesses clean books and fractional CFO guidance, without big-firm complexity or fees.",
   keywords: [
     "bookkeeping services",
     "small business bookkeeping",
     "fractional CFO",
     "outsourced CFO",
-    "M&A advisory",
-    "M&A transaction advisory",
     "financial advisory for small business",
   ],
   openGraph: {
     type: "website",
     url: siteUrl,
     siteName: "Magnolia Advisory Group",
-    title: "Magnolia Advisory Group | Bookkeeping, Fractional CFO & M&A Advisory",
+    title: "Magnolia Advisory Group | Bookkeeping & Fractional CFO",
     description:
-      "Clean books, fractional CFO guidance, and M&A transaction advisory for owner-operated service businesses.",
+      "Clean books and fractional CFO guidance for owner-operated service businesses.",
   },
   robots: {
     index: true,
@@ -55,7 +53,7 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "Magnolia Advisory Group",
   description:
-    "Bookkeeping, fractional CFO, and M&A transaction advisory services for owner-operated service businesses.",
+    "Bookkeeping and fractional CFO services for owner-operated service businesses.",
   url: siteUrl,
   areaServed: "US",
   priceRange: "$$",
@@ -63,7 +61,6 @@ const jsonLd = {
   makesOffer: [
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Bookkeeping Services" } },
     { "@type": "Offer", itemOffered: { "@type": "Service", name: "Fractional CFO Services" } },
-    { "@type": "Offer", itemOffered: { "@type": "Service", name: "M&A Transaction Advisory" } },
   ],
 };
 
